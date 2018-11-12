@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal Game</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+</head>
+<body>
+
+
+<h1 id="title">Crystals Collector!</h1>  
+<div class=container>
+<div id="instr-back">
+  <p id="instructions">You will be given a "random number" or target number to guess.<br>
+  <br>There are four crystals below, that will also be given a "random number"<br>
+  <br> You win the game by matching your total score to the "number to guess".<br>
+  <br>You lose the game if your total score goes above he random number. <br>
+  <br>The value of each crystal is hidden from you until you click on it.<br>
+  <br>Each time the game starts, the values on the crystals will be Reset to a new value!</p>
+</div>
+
+<div id="target-back">
+<p id="numGuess">Target Number<br><span id="targetNumber"></span></p>
+</div>
+
+<div id="counter-back">
+  <p id="wins">Wins: <span id="winCounter"></span></p>
+  <p id="losses">Losses: <span id="lossCounter"></span></p>
+</div>
+
+<br><br><br><br><br><br><br>
+
+<div class="back">
+  <img class="pointer" id="green" src="assets/images/greenGem.png" alt="Green">
+
+<div class="back">
+  <img class="pointer" id="orange" src="assets/images/orangeGem.png" alt="Orange">
+
+<div class="back">
+  <img class="pointer" id="purple" src="assets/images/purpleGem.png" alt="Purple">
+
+<div class="back">
+  <img class="pointer" id="red" src="assets/images/redGem.png" alt="Red">
+
+</div>
+
+
+<br><br><br><br><br><br><br><br><br>
+
+<div id="score">
+  <p id="score-txt">Your total score is:</p>
+</div>
+
+<br><br><br><br>
+
+<div id="score-back">
+  <div id="curScore"></div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+<script src="assets/JavaScript/game.js"></script>
+</body>
+</html>
