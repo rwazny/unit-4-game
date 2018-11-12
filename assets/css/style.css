@@ -3,38 +3,34 @@
 
 #green{
 	float:left;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
+	margin-right: 80px;
+	margin-left: 10px;
 	
 }
 #orange{
 	float: left;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
+	margin-right: 80px;
 }
 #purple{
 	float: left;
-	height: 100px;
-	width: 100px;	
+	height: 150px;
+	width: 150px;	
+	margin-right: 80px;
 }
 
 #red{
 	float: left;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
+	margin-right: 80px;
 }
 
 .gem-img {
-	
 	margin-bottom: 30px;
-	
-}
-
-.back {
-
-	height: 200px;
-	width: 200px;
-	float: left;
 	
 }
 
@@ -44,7 +40,6 @@ body {
 }
 
 #title {
-
 	padding: 20px;
 	background-color: darkorange;
 	stroke: black;
@@ -54,8 +49,7 @@ body {
 	font-family: 'Fredoka One', cursive;
 	text-align: center;
 	font-size: 60px;
-	
-	
+		
 }
 
 #instr-back {
